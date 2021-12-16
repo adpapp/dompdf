@@ -195,7 +195,7 @@ class Block extends AbstractFrameReflower
                 }
             } else {
                 // We are over constrained--set margin-right to the difference
-                $rm = (float) $rm + $diff;
+                $rm = (float) $rm + (float) $diff;
 
                 if ($width === "auto") {
                     $width = 0;
